@@ -1,0 +1,27 @@
+### GET para ver la pagina de inicio
+GET http://localhost:3000/
+
+### GET para ver la API
+GET http://localhost:3000/pokemon/ditto
+
+### GET para ver el error 404 Not found
+
+GET http://localhost:3000/pokemon
+
+### POST para crear un pokemon
+
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "name": "Federico",
+    "apellido": "Redolfo",
+    "edad": "24",
+    "nacimiento": "15 de julio 2000",
+    "type": "superpoderoso",
+    "moves": [
+        "transform",
+        "fuerte"
+    ]
+    
+}
