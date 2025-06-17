@@ -14,7 +14,7 @@ Solucion de CORS y Desarrollo de API REST con Express
 - 400 vs 502
 - Patch
 - POST vs PUT vs PATCH
-- Servor web
+- Servor: generar puerto para la web ---> npx servor "./web"
 - OPTIONS
 - CORS
 - Middleware CORS

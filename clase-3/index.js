@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000
 const app = express()
 app.use(express.json()) // CORS --> validacion de 'Content-Type: application/json'
 app.use(cors({
-    origin: (origin, callback) => {
+    origin: (origin, callback) => { // Validacion para aceptar PORT 
         const ACCEPTED_ORIGINS = [
             'http://localhost:8080',
             'http://localhost:1234',
