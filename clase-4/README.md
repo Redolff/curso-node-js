@@ -12,3 +12,4 @@ Arquitectura MVC + Despliege de API REST
 - Validaciones en Modelos Vistas y Controladores
 - Probando API + Endpoint Borrar
 - Introduccion a MongoDB Atlas
+- Leer archivos sin instalar dependencias (.env)
