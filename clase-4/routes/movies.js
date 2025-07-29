@@ -7,8 +7,8 @@ moviesRouter.get('/', MovieController.getAll)
 
 moviesRouter.get('/:id', MovieController.getById)
 
-moviesRouter.patch('/movies/:id', MovieController.update)
+moviesRouter.patch('/:id', MovieController.update)
 
-moviesRouter.post('/movies', MovieController.create)
+moviesRouter.post('/', MovieController.create)
 
 moviesRouter.delete('/:id', MovieController.delete)
