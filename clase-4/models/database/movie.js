@@ -4,6 +4,7 @@ const uri = process.env.MONGODB_URL
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
+  autoSelectFamily: false,
   serverApi: {
     version: ServerApiVersion.v1,
     strict: true,
@@ -11,14 +12,11 @@ const client = new MongoClient(uri, {
   }
 });
 
-
 async function connect () {
-  if (cachedCollection) return cachedCollection
-
   try {
     await client.connect()
-    const database = client.db('moviesDB')
-    return db.collection('movies')
+    const database = client.db('Cluster0')
+    return database.collection('movies')
   } catch (error) {
     console.error('Error connecting to the database')
     console.error(error)
