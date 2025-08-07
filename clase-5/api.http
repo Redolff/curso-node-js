@@ -2,36 +2,36 @@
 GET http://localhost:3000/movies
 
 ### Recuperar una pelicula por ID
-GET http://localhost:3000/movies/c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf
+GET http://localhost:3000/movies/feb6cc38-7304-11f0-82df-c0185032fd70
 
 ### Recuperar peliculas por Genero
-GET http://localhost:3000/movies?genre=sci-fi
+GET http://localhost:3000/movies?genre=Drama
 
 ### Crear una pelicula
 POST http://localhost:3000/movies
 Content-Type: application/json
 
 {
-    "title": "El sicario",
+    "title": "Gigantes de Acero 2026",
     "year": 2026,
-    "director": "Frank Redolfo",
+    "director": "Federico Redolfo",
     "duration": 163,
     "poster": "https://i.ebayimg.com/images/g/4goAAOSwMyBe7hnQ/s-l1200.webp",
     "genre": [
         "Drama",
         "Adventure",
-        "Sci-Fi"
+        "Sci-Fi" 
     ],
-    "rate": 9.98
+    "rate": 9.8
 }
 
 ### Actualizar una pelicula
-PATCH http://localhost:3000/movies/7d2832f8-c70a-410e-8963-4c93bf36cc9c
+PATCH http://localhost:3000/movies/feb6cc38-7304-11f0-82df-c0185032fd70
 Content-Type: application/json
 
 {
-    "year": 1900
+    "year": 2013
 }
 
 ### Eliminar una pelicula
-DELETE http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+DELETE http://localhost:3000/movies/feb6c51c-7304-11f0-82df-c0185032fd70
