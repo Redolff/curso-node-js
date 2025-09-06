@@ -12,7 +12,7 @@ POST http://localhost:3000/movies
 Content-Type: application/json
 
 {
-    "title": "Paren la mano 2026",
+    "title": "Nueva tarea",
     "year": 2026,
     "director": "Federico Redolfo",
     "duration": 163,

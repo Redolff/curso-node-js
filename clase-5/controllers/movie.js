@@ -1,4 +1,5 @@
 import { validateMovie, validatePartialMovie } from "../schemas/movies.js"
+import { sendSlackMessage } from "../services/SlackService.js"
 
 export class MovieController {
     constructor({ movieModel }) {
