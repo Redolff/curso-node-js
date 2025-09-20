@@ -1,7 +1,9 @@
 Chat en TIEMPO REAL con Node.js, Socket.io, SQL, HTML y CSS
 
+- TCP 
+- HTTP vs WEB SOCKETS
 - Express 
-- Morgan (dependencia para "peticion, statusCode, milisegundos")
+- Morgan (dependencia para obtener "peticion, statusCode, milisegundos")
 - Realtime
 - Web Socket (Birideccional)
 - Socket.io
@@ -10,3 +12,4 @@ Chat en TIEMPO REAL con Node.js, Socket.io, SQL, HTML y CSS
 - CSS
 - Server
 - Client
+- DB, TABLAS, QUERYS
