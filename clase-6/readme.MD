@@ -7,6 +7,8 @@ Chat en TIEMPO REAL con Node.js, Socket.io, SQL, HTML y CSS
 - Realtime
 - Web Socket (Birideccional)
 - Socket.io
+- WSL
+- TURSO DB
 - SQL
 - HTML
 - CSS
