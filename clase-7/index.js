@@ -1,8 +1,8 @@
+import 'dotenv/config'
 import express from 'express'
 import jwt from 'jsonwebtoken'
 import cookieParser from 'cookie-parser'
 import { UserRepository } from './user-repository.js'
-import 'dotenv/config'
 import { middlewareToken } from './middlewares/middlewareToken.js'
 
 const PORT = process.env.PORT

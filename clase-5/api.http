@@ -2,10 +2,10 @@
 GET http://localhost:3000/movies
 
 ### Recuperar una pelicula por ID
-GET http://localhost:3000/movies/c72a2dae-e872-474d-8b9c-c8acbc163825
+GET http://localhost:3000/movies/68896baf89228fa81248f553
 
 ### Recuperar peliculas por Genero
-GET http://localhost:3000/movies?genre=Crime
+GET http://localhost:3000/movies?genre=Drama
 
 ### Crear una pelicula
 POST http://localhost:3000/movies

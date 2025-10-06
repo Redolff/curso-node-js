@@ -3,8 +3,6 @@ import cors from 'cors'
 const ACCEPTED_ORIGINS = [
     'http://localhost:8080',
     'http://localhost:1234',
-    'http://movies.com',
-    'http://midu.dev'
 ]
 
 export const corsMiddleware = ({ accepted_origin = ACCEPTED_ORIGINS } = {}) => cors({
